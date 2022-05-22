@@ -1,0 +1,9 @@
+{
+    "name": "root/reflection-api",
+    "autoload": {
+        "psr-4": {
+            "ReflectionAPI\\": "src/"
+        }
+    },
+    "require": {}
+}
