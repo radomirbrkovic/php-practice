@@ -1,0 +1,13 @@
+{
+    "name": "root/design-patterns",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CreationalPatterns\\": "CreationalPatterns/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
