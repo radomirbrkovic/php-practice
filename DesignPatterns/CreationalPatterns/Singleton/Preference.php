@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPattern\CreationalPatterns\Singleton;
+namespace CreationalPatterns\Singleton;
 
 class Preference
 {
