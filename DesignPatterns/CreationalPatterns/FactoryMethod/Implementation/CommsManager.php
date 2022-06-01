@@ -1,6 +1,6 @@
 <?php
 
-namespace CreationalPatterns\FactoryMethod;
+namespace CreationalPatterns\FactoryMethod\Implementation;
 
 abstract class CommsManager
 {
