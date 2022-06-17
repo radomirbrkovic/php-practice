@@ -12,7 +12,7 @@ class CompositeTest extends TestCase
     /**
      * @return void
      */
-    public function testRender()
+    public function testRender(): void
     {
         $form = new Form();
         $form->addElement(new TextElement('Email:'));
