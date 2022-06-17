@@ -29,7 +29,7 @@ class DecoratorTest extends TestCase
     /**
      * @return void
      */
-    public function testJsonRender()
+    public function testJsonRender(): void
     {
         $jsonRender = new JsonRender($this->inputData);
         $renderedData = json_decode($jsonRender->renderData(), true);
@@ -41,7 +41,7 @@ class DecoratorTest extends TestCase
      * @return void
      * @throws \DOMException
      */
-    public function testXmlRender()
+    public function testXmlRender(): void
     {
         $xmlRender = new XMLRender($this->inputData);
         $xml = \XMLReader::xml($xmlRender->renderData());
