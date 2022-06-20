@@ -4,10 +4,10 @@ Structural design patterns are concerned with how classes and objects can be com
 
 Types of structural design patterns are:
 
-- **Adapter Pattern**
-- **Bridge Pattern**
-- **Composite Pattern**
-- **Decorator Pattern**
-- **Facade Pattern**
-- **Flyweight Pattern**
-- **Proxy Pattern**
+- [**Adapter Pattern**](./Adapter)
+- [**Bridge Pattern**](./Bridge)
+- [**Composite Pattern**](./Composite)
+- [**Decorator Pattern**](./Decorator)
+- [**Facade Pattern**](./Facade)
+- [**Flyweight Pattern**](./Flyweight)
+- [**Proxy Pattern**](./Proxy)
