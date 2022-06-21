@@ -12,7 +12,7 @@ class HttpInMemoryCacheHandler extends Handler
      */
     public function __construct(private array $data, ?Handler $successor = null)
     {
-        $this->successor = $successor;
+        parent::__construct($successor);
     }
 
     /**
