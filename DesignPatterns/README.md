@@ -30,4 +30,4 @@ In addition, all patterns can be categorised by their **intent**, or purpose. Th
 
 - [**Creational patterns**](./CreationalPatterns) provide object creation mechanisms that increase flexibility and reuse of existing code.
 - [**Structural patterns**](./StructuralPatterns) explain how to assemble object and classes into larger structures, while keeping the structure flexible and efficient
-- **Behavioral patterns** take care of effective communication and the assignment of responsibilities between objects. 
+- [**Behavioral patterns**](./BehavioralPatterns) take care of effective communication and the assignment of responsibilities between objects. 
