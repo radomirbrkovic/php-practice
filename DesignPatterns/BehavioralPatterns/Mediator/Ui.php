@@ -10,6 +10,6 @@ class Ui extends Colleague
      */
     public function outputUserInfo(string $sting): string
     {
-        return $this->mediator->getUser($sting);
+        echo $this->mediator->getUser($sting);
     }
 }
