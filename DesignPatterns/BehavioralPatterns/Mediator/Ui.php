@@ -6,9 +6,9 @@ class Ui extends Colleague
 {
     /**
      * @param string $sting
-     * @return string
+     * @return void
      */
-    public function outputUserInfo(string $sting): string
+    public function outputUserInfo(string $sting): void
     {
         echo $this->mediator->getUser($sting);
     }
