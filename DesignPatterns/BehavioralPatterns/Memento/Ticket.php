@@ -32,7 +32,7 @@ class Ticket
     /**
      * @return void
      */
-    public function assigned(): void
+    public function assign(): void
     {
         $this->currentState = new State(State::STATE_ASSIGNED);
     }
