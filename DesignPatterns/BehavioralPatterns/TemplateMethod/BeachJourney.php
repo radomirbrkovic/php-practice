@@ -2,7 +2,7 @@
 
 namespace BehavioralPatterns\TemplateMethod;
 
-class BeachJourney
+class BeachJourney extends Journey
 {
     /**
      * @return string
