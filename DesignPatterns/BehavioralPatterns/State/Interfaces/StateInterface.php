@@ -2,6 +2,8 @@
 
 namespace BehavioralPatterns\State\Interfaces;
 
+use BehavioralPatterns\State\OrderContext;
+
 interface StateInterface
 {
 
