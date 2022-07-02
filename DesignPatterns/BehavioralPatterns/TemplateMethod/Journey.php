@@ -1,6 +1,6 @@
 <?php
 
-namespace BehavioralPatterns\TemplateMethod\Journey;
+namespace BehavioralPatterns\TemplateMethod;
 
 abstract class Journey
 {
