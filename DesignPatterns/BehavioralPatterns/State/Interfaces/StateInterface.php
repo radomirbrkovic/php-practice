@@ -16,5 +16,5 @@ interface StateInterface
     /**
      * @return string
      */
-    public function toSting(): string;
+    public function toString(): string;
 }

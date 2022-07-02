@@ -18,7 +18,7 @@ class StateShipped implements StateInterface
     /**
      * @return string
      */
-    public function toSting(): string
+    public function toString(): string
     {
         return 'shipped';
     }
