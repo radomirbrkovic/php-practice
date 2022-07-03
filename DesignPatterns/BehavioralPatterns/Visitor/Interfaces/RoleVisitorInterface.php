@@ -9,13 +9,13 @@ interface RoleVisitorInterface
 {
     /**
      * @param User $role
-     * @return mixed
+     * @return void
      */
-    public function visitUser(User $role);
+    public function visitUser(User $role): void;
 
     /**
      * @param Group $role
-     * @return mixed
+     * @return void
      */
-    public function visitGroup(Group $role);
+    public function visitGroup(Group $role): void;
 }
