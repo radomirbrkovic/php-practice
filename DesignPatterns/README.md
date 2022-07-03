@@ -31,3 +31,12 @@ In addition, all patterns can be categorised by their **intent**, or purpose. Th
 - [**Creational patterns**](./CreationalPatterns) provide object creation mechanisms that increase flexibility and reuse of existing code.
 - [**Structural patterns**](./StructuralPatterns) explain how to assemble object and classes into larger structures, while keeping the structure flexible and efficient
 - [**Behavioral patterns**](./BehavioralPatterns) take care of effective communication and the assignment of responsibilities between objects. 
+
+
+## Installation and instructions
+
+After you was cloning or downloading this repository in your local directory where you stored the repository run `docker-compose up -d` command installing and running docker image.
+
+For downloading dependencies by composer first please login on docker machine by `docker exec -it php_design_patterns bash` command and after that run `composer install` command.
+
+For running tests first please login on docker machine by `docker exec -it php_design_patterns bash ` command and after that run `php vendor/phpunit/phpunit/phpunit {Pattern}/{Patern}Test.php` 
