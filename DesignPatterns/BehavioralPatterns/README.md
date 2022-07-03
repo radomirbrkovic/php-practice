@@ -6,13 +6,13 @@ Behavioral design patterns are concerned with algorithms and the assignment of r
 
 Types of behavioral design patterns:
 
-- Chain of Responsibility Pattern
-- Command Pattern
-- Iterator Pattern
-- Mediator Pattern
-- Memento Pattern
-- Observer Pattern
-- State Pattern
-- Strategy Pattern
-- Template Method Pattern
-- Visitor Pattern
+- [Chain of Responsibility Pattern](./ChainOfResponsibility)
+- [Command Pattern](./Command)
+- [Iterator Pattern](./Iterator)
+- [Mediator Pattern](./Mediator)
+- [Memento Pattern](./Memento)
+- [Observer Pattern](./Observer)
+- [State Pattern](./State)
+- [Strategy Pattern](./Strategy)
+- [Template Method Pattern](./TemplateMethod)
+- [Visitor Pattern](./Visitor)
