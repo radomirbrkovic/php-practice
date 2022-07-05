@@ -4,6 +4,14 @@
 
 While Facade decreases the overall complexity of the application, it also helps to move unwanted dependencies to one place.
 
+## Applicability
+
+Use the Facade pattern when:
+
+- you need to have a limited but straightforward interface to a complex subsystem.
+- you want to structure a subsystem into layers.
+
+
 ## Pros and cons
 
 Pros:
