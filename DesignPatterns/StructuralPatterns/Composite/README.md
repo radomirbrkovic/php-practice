@@ -4,6 +4,12 @@
 
 Composite becomes a pretty popular solution for the most problems that require building a tree structure. Composite's great feature is the ability to run methods recursively over the whole tree structure and sum up the result.
 
+## Applicability
+
+Use the Composite pattern when:
+
+- you have to implement a tree-like object structure.
+- you want the client code to treat both simple and complex elements uniformly.
 
 ## Pros and cons
 
