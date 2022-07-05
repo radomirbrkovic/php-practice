@@ -4,6 +4,12 @@ Singleton is a creational design pattern, which ensure that only one object of i
 
 Singleton has almost the same pros and cons as global variables. Although they're super-handy, they break the modularity of your code.
 
+## Applicability
+
+Use the Singleton pattern when:
+
+- a class in your program should have just a single instance available to all clients; for example, a single database object shared by different parts of the program.
+- you need stricter control over global variables.
 
 # Pros and Cons 
 

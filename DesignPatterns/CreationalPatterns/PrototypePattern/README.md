@@ -11,6 +11,13 @@ other's private fields.
 The main idea about prototype pattern is replacing inheritance with  composition,
 so it in turn promotes flexibility while run time and decrease number of needed classes.
 
+## Applicability
+
+Use the Prototype pattern when:
+
+- your code shouldn’t depend on the concrete classes of objects that you need to copy.
+- to reduce the number of subclasses that only differ in the way they initialize their respective objects.
+
 ## Pros and cons
 
 Pros: 

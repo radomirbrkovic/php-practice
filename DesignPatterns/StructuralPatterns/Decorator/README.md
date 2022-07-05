@@ -4,6 +4,13 @@
 
 Using decorators you can wrap objects countless number of times since both target objects and decorators follow the same interface. The resulting object will get a stacking behavior of all wrappers.
 
+## Applicability
+
+Use the Decorator pattern when:
+
+- you need to be able to assign extra behaviors to objects at runtime without breaking the code that uses these objects.
+- it’s awkward or not possible to extend an object’s behavior using inheritance.
+
 ## Pros and cons
 
 Pros:
