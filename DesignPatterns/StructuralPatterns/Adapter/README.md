@@ -3,6 +3,15 @@
 **Adapter** is a structural design pattern that allows objects with incompatible interfaces to collaborate.
 The Adapter acts as a wrapper between two objects. It catches calls for one object and transforms them to format and interface recognizable by the second object.
 
+To translate one interface for a class into a compatible interface. An adapter allows classes to work together that normally could not because of incompatible interfaces by providing its interface to clients while using the original interface.
+
+## Applicability
+
+Use the Adapter pattern when:
+
+- you want to use some existing class, but its interface isn’t compatible with the rest of your code.
+- to reuse several existing subclasses that lack some common functionality that can’t be added to the superclass.
+
 ## Pros and Cons
 
 Pros: 
