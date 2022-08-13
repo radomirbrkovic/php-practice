@@ -2,7 +2,7 @@
 
 namespace BehavioralPatterns\Mediator;
 
-class Ui extends Colleague
+class UserInfo extends Colleague
 {
     /**
      * @param string $sting
