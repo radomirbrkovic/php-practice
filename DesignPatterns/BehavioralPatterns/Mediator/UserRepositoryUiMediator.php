@@ -9,12 +9,12 @@ class UserRepositoryUiMediator implements MediatorInterface
 
     /**
      * @param UserRepository $userRepository
-     * @param Ui $ui
+     * @param UserInfo $userInfo
      */
-    public function __construct(private UserRepository $userRepository, private Ui $ui)
+    public function __construct(private UserRepository $userRepository, private UserInfo $userInfo)
     {
         $this->userRepository->setMediator($this);
-        $this->ui->setMediator($this);
+        $this->userInfo->setMediator($this);
     }
 
     /**
@@ -23,7 +23,7 @@ class UserRepositoryUiMediator implements MediatorInterface
      */
     public function printInfoAbout(string $user)
     {
-        $this->ui->outputUserInfo($user);
+        $this->userInfo->outputUserInfo($user);
     }
 
     /**

@@ -11,7 +11,7 @@ class MediatorTest extends TestCase
      */
     public function testUserMediator()
     {
-        $mediator = new UserRepositoryUiMediator(new UserRepository(), new Ui());
+        $mediator = new UserRepositoryUiMediator(new UserRepository(), new UserInfo());
 
         $this->expectOutputString('User: Dominik');
         $mediator->printInfoAbout('Dominik');
