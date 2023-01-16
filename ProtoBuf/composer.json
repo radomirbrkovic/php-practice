@@ -1,0 +1,11 @@
+{
+    "name": "root/proto-buf",
+    "autoload": {
+        "psr-4": {
+            "ProtoBuf\\": "src/"
+        }
+    },
+    "require": {
+        "protobuf-php/protobuf": "^0.1.3"
+    }
+}
